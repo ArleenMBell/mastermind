@@ -25,7 +25,7 @@ namespace Mastermind
             {
                 var input = Console.ReadLine();
 
-                if (string.IsNullOrWhiteSpace(input) || input.Length < 4)
+                if (string.IsNullOrWhiteSpace(input) || input.Length != 4)
                 {
                     ++tryNum;
                     continue;
